@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.container{
+display: inline-block;
+}
+nav{
+text-align: center;
+padding-top: 50px;
+}
+nav a{
+padding: 0px 40px;
+text-decoration: none;
+color: rgb(145, 145, 145);
+cursor: pointer;
+}
+nav img{
+padding-left: 50px;
+}
+.header-content{
+	margin: 1% 15% 1% 15%;
+	padding-top: 50px;
+	
+}
+.text-header{
+	padding-top: 20px;
+	height: 400px;	
+	padding-right: 600px;
+	text-align: center;
+}
+.text-header h1{
+	font-size: 80px;
+
+}
+.btn-wrap{
+	padding-top: 20px;
+}
+.getstarted-btn{
+ text-decoration: none;
+ border: 2px solid black;
+ /* TRBL */
+ padding: 10px 80px 10px 80px;
+
+}
+.headerimg{
+	margin: -400px 100px 20px 700px;;
+	height: 100%;	
+
+
+}
+.headerimg img{
+	margin: 0 auto;
+	
+
+
+}
+hr{
+	margin: 2% 18% 0% 18%;
+	border: 1px solid black;
+	
+}
+.feature-about-wrapper{
+
+	margin: 0% 20% 0% 20%;
+}
+
+.features{
+	margin-right: 620px;
+	margin-top: 40px;
+}
+.about{
+	
+
+
+	margin-top: -82px;
+	margin-left: 600px;
+	
+}
+.middle-img{
+	padding-top: 40px;
+	margin: 0 500px;
+	padding-bottom: 50px;
+}
+.service-product-vision-wrapper{
+	margin: 0% 18% 0% 18%;
+	padding: 0px 20px 0px 20px;
+}
+.services{
+	margin-right: 850px;
+	
+}
+.product{
+	margin-right: 450px;
+	margin-top: -115px;
+	margin-left: 400px;
+}
+.vision{
+	margin-top: -115px;
+	margin-left: 800px;
+}
+	footer{
+		padding-top: 40px;
+		margin-left: 360px;
+}
+.copyright{
+padding-left: 500px;
+padding-bottom: 50px;
+	
+}
